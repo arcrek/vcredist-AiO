@@ -10,4 +10,4 @@ When doing a Windows install, it's recommended to always install all the various
 
 # Changelog
 #### January 26th, 2022
-* Updated Visual C++ 2015-2021 to version 14.31.30818.0
+* Updated Visual C++ 2015-2021 to version 14.30.30708
