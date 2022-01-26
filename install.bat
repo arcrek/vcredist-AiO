@@ -1,16 +1,12 @@
 @echo off
-mode con lines=30 cols=115
 title "Microsoft Visual C++ Redistributable All-in-One  -  fb.com/nguyendangdat.spt"
-fsutil dirty query %systemdrive%  >nul 2>&1 || (
-echo ==== ERROR ====
-echo You run this tool not as administrator role.
-echo Please Run as administrator.
 CD /d %~dp0
+mode con lines=30 cols=115
 
 
 echo.
 echo Microsoft Visual C++ Redistributable All-in-One
-https://github.com/nguyendang-dat/vcredist-AiO
+echo https://github.com/nguyendang-dat/vcredist-AiO
 echo.
 echo Installing packages...
 echo.
