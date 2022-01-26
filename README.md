@@ -13,5 +13,5 @@ This package is created by us here from [Microsoft Visual C++ Redistributable La
 # Changelog
 #### January 26th, 2022
 * Add language: Vietnamese
-#### November 10th, 2021
+#### January 7th, 2022
 * Updated Visual C++ 2015-2021 to version 14.30.30708
