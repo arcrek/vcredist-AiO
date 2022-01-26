@@ -6,7 +6,10 @@ set randname=%random%%random%%random%%random%%random%
 md "%windir%\%randname%" 2>nul
 if %errorlevel%==0 goto :end
 if %errorlevel%==1 (
-    echo.& echo ^>^> Please use RIGHT CLICK - Run as administrator
+    echo. & echo -------------------------------------------------
+    echo. & echo ^>^> Please use RIGHT CLICK - Run as administrator
+    echo. & echo ^>^> Su dung CHUOT PHAI - Run as administrator
+    echo. & echo -------------------------------------------------
     color 4f& timeout /t 15 >nul
     Set ADMIN=FAIL
     goto :end
