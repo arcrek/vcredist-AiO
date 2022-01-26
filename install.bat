@@ -93,10 +93,6 @@ goto END
 echo.
 echo Installation completed successfully
 echo Exit in 3s
-sleep 1s
-echo Exit in 2s
-sleep 1s
-echo Exit in 1s
-sleep 1s
+timeout /t 3 /nobreak > NUL
 
 exit
