@@ -1,6 +1,6 @@
 # Microsoft Visual C++ Redistributable All-in-One
 
-`File size: ~87.0 MB`
+`File size: ~ 87.0 MB`
 
 ### Instruction: Run the included `install.bat` with admin privileges (right click, `Run as administrator`)
 
