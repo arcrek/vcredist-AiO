@@ -8,7 +8,7 @@ When doing a Windows install, it's recommended to always install all the various
 
 This package is created by us here from [Microsoft Visual C++ Redistributable Latest Supported Downloads](https://docs.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist). All files are digitally signed by Microsoft, which guarantees they are unaltered.
 
-<img src="https://raw.githubusercontent.com/nguyendang-dat/cpp-redistributable-AIO/main/img/files.png">
+<img src="https://raw.githubusercontent.com/nguyendang-dat/vcredist-AiO/main/img/files.png">
 
 # Changelog
 #### January 26th, 2022
