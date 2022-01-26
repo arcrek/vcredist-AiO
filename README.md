@@ -1,6 +1,6 @@
 # Microsoft Visual C++ Redistributable All-in-One
 
-### Instruction: Run the included install_all.bat with admin privileges (right click, "Run as administrator")
+### Instruction: Run the included `install.bat` with admin privileges (right click, "Run as administrator")
 
 The download includes the VC_Redist runtime packages for Visual C++ 2005, 2008, 2010, 2012, 2013, 2015, 2017, 2019, 2021 and 2022. Both 32-bit and 64-bit are supported. The files included are the English language version.
 
