@@ -7,8 +7,10 @@ The download includes the VC_Redist runtime packages for Visual C++ 2005, 2008, 
 When doing a Windows install, it's recommended to always install all the various C++ runtimes, which is why this all-in-one pack was created. It helps to avoid problems with programs that cause error messages like "side-by-side configuration is incorrect", or "Missing MSVCRT.DLL", "VCRUNTIME140_1.dll", or "MSVCP140.DLL".
 
 <img src="https://raw.githubusercontent.com/nguyendang-dat/cpp-redistributable-AIO/main/img/files.png">
-* Files included in the package *
-</br>
+<br />
+*Files included in the package*
+<br />
+
 
 # Changelog
 
