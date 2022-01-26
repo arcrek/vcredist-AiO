@@ -1,9 +1,9 @@
 @echo off
 
 title "Microsoft Visual C++ Redistributable All-in-One  -  fb.com/nguyendangdat.spt"
-CD /d %~dp0bin
 mode con lines=30 cols=115
-
+CD /d %~dp0bin
+call "%~dp0bin\permissions.bat"
 
 echo.
 echo Microsoft Visual C++ Redistributable All-in-One
