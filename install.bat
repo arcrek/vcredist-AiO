@@ -127,11 +127,15 @@ goto END
 
 :END
 
+cls
 echo.
 echo -------------------------------------------------
 echo.
-echo Installation completed successfully
-echo Exit in 3s
-timeout /t 3 /nobreak > NUL
+echo Installation completed successfully.
+echo Thank you for using this script.
+echo Press any key to exit...
+echo.
+echo -------------------------------------------------
+pause >nul
 
 exit
