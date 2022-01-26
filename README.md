@@ -1,4 +1,4 @@
-> Microsoft Visual C++ Redistributable All-in-One
+# Microsoft Visual C++ Redistributable All-in-One
 
 ### Instruction: Run the included `install.bat` with admin privileges (right click, "Run as administrator")
 
@@ -8,8 +8,9 @@ When doing a Windows install, it's recommended to always install all the various
 
 <img src="https://raw.githubusercontent.com/nguyendang-dat/cpp-redistributable-AIO/main/img/files.png">
 *Files included in the package*
+</br>
 
-> Changelog
+# Changelog
 
 ## Jan 2022 (January 26th, 2022)
 * Updated Visual C++ 2015-2021 runtime to version 14.31.30818.0
