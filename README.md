@@ -8,7 +8,7 @@ When doing a Windows install, it's recommended to always install all the various
 
 <img src="https://raw.githubusercontent.com/nguyendang-dat/cpp-redistributable-AIO/main/img/files.png">
 <br />
-*Files included in the package*
+_Files included in the package_
 <br />
 
 
