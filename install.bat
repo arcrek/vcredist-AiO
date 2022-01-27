@@ -2,12 +2,36 @@
 
 title "Microsoft Visual C++ Redistributable All-in-One  -  fb.com/nguyendangdat.spt"
 mode con lines=30 cols=115
+chcp 65001 >nul
+>nul 2>&1 "%SYSTEMROOT%\system32\cacls.exe" "%SYSTEMROOT%\system32\config\system"
+if '%errorlevel%' NEQ '0' (
+    echo. & echo -------------------------------------------------
+    echo. & echo ^>^> Please use RIGHT CLICK - Run as administrator
+    echo. & echo ^>^> Su dung CHUOT PHAI - Run as administrator
+    echo. & echo -------------------------------------------------
+    color 4f & timeout /t 2 >nul
+    goto goUAC 
+) else (
+ goto goADMIN )
+
+:goUAC
+    echo Set UAC = CreateObject^("Shell.Application"^) > "%temp%\getadmin.vbs"
+    set params = %*:"=""
+    echo UAC.ShellExecute "cmd.exe", "/c %~s0 %params%", "", "runas", 1 >> "%temp%\getadmin.vbs"
+    "%temp%\getadmin.vbs"
+    del "%temp%\getadmin.vbs"
+    exit /B
+
+:goADMIN
+
+color 07
 CD /d %~dp0bin
 call "%~dp0bin\permissions.bat"
 call "%~dp0bin\language.bat"
 
 :SRT
 
+color 07
 cls & echo. & echo Microsoft Visual C++ Redistributable All-in-One & echo https://github.com/nguyendang-dat/vcredist-AiO & echo. & echo %_001_% & echo.
 
 set IS_X64=0 && if "%PROCESSOR_ARCHITECTURE%"=="AMD64" (set IS_X64=1) else (if "%PROCESSOR_ARCHITEW6432%"=="AMD64" (set IS_X64=1))
