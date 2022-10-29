@@ -2,7 +2,6 @@
 
 title "Microsoft Visual C++ Redistributable All-in-One  -  fb.com/nguyendangdat.spt"
 mode con lines=30 cols=115
-rem >> code get admin privileges take from TuaKie. Thanks to Trinh Tuan Kiet.
 chcp 65001 >nul
 >nul 2>&1 "%SYSTEMROOT%\system32\cacls.exe" "%SYSTEMROOT%\system32\config\system"
 if '%errorlevel%' NEQ '0' (
